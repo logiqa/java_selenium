@@ -10,8 +10,8 @@ public class second {
 
     @Before
     public  void start () {
-        driver = new chromedriver ();
-        wait = new Webdriver (driver, timeoutseconds 10 );
+        driver = new Chromedriver ();
+        wait = new Webdriver (driver, timeOutinSeconds 10 );
     }
     @Test
     public void second (){
@@ -25,7 +25,7 @@ public class second {
         driver.quit();
         driver = nill;
 
-    }    
+    }
 
 
 }
